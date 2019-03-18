@@ -1,8 +1,0 @@
-本地生成库:    git clone      github上的网址
-查看本地分支:   git banch
-删除分支:   git banch -d 分支名称
-
-
-1、git add 文件名
-2、git commit -m "备注信息"
-3、git push origin master
