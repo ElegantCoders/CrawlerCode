@@ -1,0 +1,24 @@
+git clone github上的网址                                     #本地生成库
+git fetch origin dev（dev为远程仓库的分支名）     #拉取远程分支到本地
+git pull origin dev(远程分支名称)                           #把某个分支上的内容都拉取到本地
+git fetch                                                              #将本地分支与远程保持同步
+git checkout -b 本地分支名x origin/远程分支名x    #拉取远程分支并同时创建对应的本地分支
+git checkout -b 分支名                                         #创建本地分支
+git checkout 分支名			           #切换分支
+
+
+branch常用的命令：
+git branch -a                                      #查看本地和远程所有的分支
+git branch -r                                      #查看所有远程分支
+git branch                                          #查看所有本地分支
+git banch -d 分支名称                         #删除分支
+git branch -d -r origin/branchA          #删除远程分支
+
+
+1、git add 文件名                               #添加文件到缓存区
+
+	git rm test.txt (删除文件)
+	git rm -r test (删除文件夹)
+
+2、git commit -m "备注信息"	         #对文件进行备注(备注必填)
+3、git pull origin     分支名                 #同步到远程github 
